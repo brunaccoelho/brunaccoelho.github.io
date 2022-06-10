@@ -1,0 +1,30 @@
+body{
+    text-align: justify;
+    margin: 30px;
+}
+
+.moldura-lg{
+    width: 560px;
+}
+
+.moldura-md{
+    width: 320px;
+    text-align: center;
+    float: right;
+}
+figcaption{
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 35px;
+    background-color: rgb(144, 211, 231);
+    padding: 15px;
+    text-align: center;
+}
+
+hr{
+    margin-top: -15px;
+}
