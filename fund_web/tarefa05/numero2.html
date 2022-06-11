@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número 2</title>
+
+    <style>    
+        body{
+            background-color: #DDDDDD;
+            color:red;
+        }
+    
+        table{
+            background-color: #FFFFCC;
+            border-color: #FFFFCC;
+            text-align: center;
+            margin-top: 40px;
+            width: 400px;
+            height: 300px;
+        }
+    
+        table th{
+            background-color: rgb(245, 245, 116);
+        }
+    
+        table .negrito{
+            font-weight: bold;
+        }
+    
+        header{
+            display: flex;
+        }
+    
+        header img{
+            height: 100px;
+            width: 200px;
+            margin-left: 100px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Tarifas</h1>
+        <img src="carro.png" alt="carro">
+    </header>
+    <table border="1">
+            <tr>
+                <th rowspan="2">Grupo</th>
+                <th colspan="3">Número de Diárias</th>
+            </tr>
+            <tr>
+                <td class="negrito">1 a 7</td>
+                <td class="negrito">8 a 21</td>
+                <td class="negrito">maior que 21</td>
+            </tr>
+            <tr>
+                <th>A</th>
+                <td>R$ 60,00</td>
+                <td>R$ 54,00</td>
+                <td>R$ 48,00</td>
+            </tr>
+            <tr>
+                <th>C</th>
+                <td>R$ 90,00</td>
+                <td>R$ 81,00</td>
+                <td>R$ 72,00</td>
+            </tr>
+            <tr>
+                <th>L</th>
+                <td>R$ 150,00</td>
+                <td>R$ 135,00</td>
+                <td>R$ 120,00</td>
+            </tr>
+    </table>
+</body>
+</html>
