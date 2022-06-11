@@ -5,7 +5,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-   /* font-family: Arial, Helvetica, sans-serif;*/
     color: #4d4b4b;
     font-family: 'Roboto', sans-serif;
 }
@@ -14,18 +13,10 @@
 header {
     display: flex;
     background-color: #fff;
+    padding: 15px 0 15px 0;
 }
 
-header .topo {
-    height: 50px;
-    border-bottom: 1px solid #000;
-}
-
-header div.menu {
-    display: flex;
-}
-
-header a.instituicao {
+header #instituicao{
     color: #434240;
     padding-left: 50px;
     padding-top: 15px;
@@ -38,11 +29,11 @@ header a.instituicao {
 }
 
 header .icones {
-    margin-left: 900px;
+    margin-left: 700px;
     padding-top: 10px;
 }
 
-header .icones i {
+header .icones i{
     font-size: 1.2rem;
     padding-top: 5px;
     padding-left: 15px;
@@ -51,7 +42,7 @@ header .icones i {
     border-left: 1px solid #cacaca;
 }
 
-nav ul {
+nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -59,12 +50,14 @@ nav ul {
     padding-left: 0;
 }
 
-nav ul li {
+nav ul li{
     padding-right: 20px;
     border-right: 1px solid #cacaca;
+    padding-top: 15px;
+
 }
 
-nav ul li a {
+nav ul li a{
     color: #55494a;
     font-size: 0.8rem;
     font-weight: 100;
@@ -72,18 +65,18 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
     border-bottom: 1px solid #55494a;
 }
 
-main{
+body{
     background-color: #f2f2f2;
 }
 
 .conteudo{
     display: flex;
     padding-top: 50px;
-    margin: 20px 100px 100px 100px;
+    margin: 20px 100px 0px 100px;
 }
 
 .conteudo aside #logo{
@@ -187,6 +180,20 @@ main{
     margin-left: 40px;
 }
 
+.conteudo aside .redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.conteudo aside .redes-sociais i{
+    color: #c1c1d0;
+    text-decoration: none;
+}
+
 .conteudo article{
     margin-left: 50px;
 }
@@ -277,8 +284,24 @@ main{
     border-right: 1px solid #4d4b4b;
 }
 
-section .footer {
+footer{
     display: flex;
-    justify-content: space-between;
     width: 300px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+footer a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .anterior {
+    color: #c1c1d0;
+}
+
+footer .posterior {
+    color: #434240;
 }
